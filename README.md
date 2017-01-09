@@ -4,6 +4,8 @@ This project was generated with [angular-cli](https://github.com/angular/angular
 
 This project also intends to provide AI opponents with varying levels of skill. Part of this project is so provide a "battleground" for AI opponents to face against each other such that they can fine-tune ranges and betting strategy against one another and become stronger. Future work will hopefully involve allowing players input their own betting strategies and seeing how they perform against each other.  
 
+Another key component of this project is to use a back-end server with NodeJS to get card information. The idea being that this platform might be used to scale to allow multi-player tables of texas hold-em. Using a back-end server would help to add a layer of security so that players can not cheat by viewing the value of cards in the deck or in their opponents hand. I intend to build the interaction with the Back-End server using web sockets for real-time action. Both for the learning experience as well as an improved user experience.
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
